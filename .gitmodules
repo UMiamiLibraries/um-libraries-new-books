@@ -4,3 +4,6 @@
 [submodule "alma-rss-to-html"]
 	path = alma-rss-to-html
 	url = git@github.com:UMiamiLibraries/alma-rss-to-html.git
+[submodule "um-book-cover"]
+	path = um-book-cover
+	url = git@github.com:UMiamiLibraries/um-book-cover.git
