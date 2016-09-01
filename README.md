@@ -16,3 +16,8 @@ Then run:
 sh new_books.sh
 ```
 
+This project combines the functionality of these different GitHub repos:
+
+* [pnxplease](https://github.com/UMiamiLibraries/pnxplease)
+* [alma-rss-to-html](https://github.com/UMiamiLibraries/alma-rss-to-html)
+* [um-book-cover](https://github.com/UMiamiLibraries/um-book-cover)
