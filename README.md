@@ -8,6 +8,13 @@ To create the pages you'll need to clone the repository and then run:
 git submodule update --init
 ``` 
 
+If one of the other repos has been updated you'll need to run this on the server to 
+pull in the changes:
+
+```bash
+git submodule foreach git pull origin master
+```
+
 That will pull in the submodules. 
 
 Then run:
@@ -15,6 +22,8 @@ Then run:
 ```
 sh new_books.sh
 ```
+
+
 
 This project combines the functionality of these different GitHub repos:
 
