@@ -2,6 +2,9 @@
 require_once (__DIR__ ."/um-book-cover/src/app/BookCover.php");
 
 $bookCover = function($syndetics_client_code, $isbn, $image_size, $update_almaIds, $book_cover_url, $alma_id) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
     echo $update_almaIds;
     echo $book_cover_url;
     echo $alma_id;
@@ -17,8 +20,7 @@ $bookCover = function($syndetics_client_code, $isbn, $image_size, $update_almaId
     }
 
 
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
+
 };
 
 $bookCover(htmlspecialchars($_GET['syndetics_client_code']), htmlspecialchars($_GET['isbn']), htmlspecialchars($_GET['image_size']),
