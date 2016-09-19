@@ -15,6 +15,10 @@ $bookCover = function($syndetics_client_code, $isbn, $image_size, $update_almaId
 	}else{
         echo $cover->getCover();
     }
+
+
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
 };
 
 $bookCover(htmlspecialchars($_GET['syndetics_client_code']), htmlspecialchars($_GET['isbn']), htmlspecialchars($_GET['image_size']),
