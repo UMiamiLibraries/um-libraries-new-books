@@ -1,9 +1,6 @@
-[submodule "pnxplease"]
-	path = pnxplease
-	url = git@github.com:little9/pnxplease.git
 [submodule "alma-rss-to-html"]
-	path = alma-rss-to-html
-	url = git@github.com:UMiamiLibraries/alma-rss-to-html.git
+       	url = https://github.com/UMiamiLibraries/alma-rss-to-html.git
+[submodule "pnxplease"]
+       	url = https://github.com/UMiamiLibraries/pnxplease.git
 [submodule "um-book-cover"]
-	path = um-book-cover
-	url = git@github.com:UMiamiLibraries/um-book-cover.git
+       	url = https://github.com/UMiamiLibraries/um-book-cover.git
